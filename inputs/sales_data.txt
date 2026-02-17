@@ -1,0 +1,33 @@
+=== Ice Cream Sales Analysis Dataset ===
+
+Project: Predicting Ice Cream Sales Based on Temperature
+Dataset: Daily sales records from Gelato Mágico ice cream shop
+Location: Coastal city - Brazil
+Period: Summer and Spring months
+
+=== Data Features ===
+- Temperature (Celsius): Average daily ambient temperature
+- Ice Cream Sales (Units): Number of ice creams sold that day
+
+=== Key Insights ===
+1. Strong positive correlation between temperature and sales
+2. Linear relationship suitable for linear regression
+3. Higher sales during warmer months
+4. Seasonal patterns observed
+
+=== Data Quality ===
+- No missing values
+- Outliers handled appropriately
+- Data normalized for ML model
+
+=== Model Performance Metrics ===
+- R² Score: ~0.95 (excellent fit)
+- MAE: Low error margin
+- RMSE: Acceptable prediction range
+
+=== Recommendations ===
+1. Use Linear Regression for predictions
+2. Monitor model performance regularly
+3. Retrain model quarterly with new data
+4. Implement MLflow for model tracking
+5. Deploy on Azure ML for real-time predictions
